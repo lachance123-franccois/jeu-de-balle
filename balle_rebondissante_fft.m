@@ -25,14 +25,6 @@ W         = 20;
 H_box     = 15;
 trail_len = 25;
 
-fprintf('\n+----------------------------------------------------------+\n');
-fprintf('|  Balles Rebondissantes + Analyse FFT - Master SIA        |\n');
-fprintf('+----------------------------------------------------------+\n');
-fprintf('|  Balles       : %-3d                                      |\n', n_balles);
-fprintf('|  Restitution  : %.2f                                     |\n', restitution);
-fprintf('|  Duree        : %.0f s  |  Fe = %.1f Hz  |  N = %d     |\n', T_sim, Fe, N);
-fprintf('|  Appuyez une touche ou fermez la fenetre pour arreter    |\n');
-fprintf('+----------------------------------------------------------+\n\n');
 
 %% ================================================================
 %  INITIALISATION DES BALLES

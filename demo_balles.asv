@@ -4,14 +4,16 @@
 %   USAGE : demo_balles
 
 fprintf('\n');
-fprintf('Choisissez une configuration a lancer                   \n');
+fprintf('|  DEMO - Balles Rebondissantes + Analyse FFT       
+fprintf('|  Choisissez une configuration a lancer                   \n');
+fprintf('+----------------------------------------------------------+\n');
 fprintf('1. Configuration par defaut     (4 balles,  e=0.85)    \n');
 fprintf('2. Rebond parfait               (5 balles,  e=1.00)    \n');
 fprintf('3. Rebond tres amorti           (6 balles,  e=0.50)    \n');
 fprintf('4. Beaucoup de balles           (10 balles, e=0.75)    \n');
 fprintf('5. Une seule balle              (1 balle,   e=0.90)    \n');
-fprintf('>> Fermez la fenetre ou appuyez une touche              \n');
-fprintf('pour declencher l''analyse FFT automatiquement        \n');
+fprintf('|  >> Fermez la fenetre ou appuyez une touche              \n');
+fprintf('|     pour declencher l''analyse FFT automatiquement        \n');
 
 choix = input('\nEntrez votre choix (1-5, defaut=1) : ');
 if isempty(choix); choix = 1; end

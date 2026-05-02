@@ -39,8 +39,8 @@ L'objectif est pédagogique : illustrer concrètement les concepts du cours de t
 balles_fft
 
 % Personnaliser
-balles_fft(5, 0.90)   % 5 balles, restitution 0.90
-balles_fft(1, 1.00)   % 1 balle, rebond parfait
+balle_rebondissante_fft(5, 0.90)   % 5 balles, restitution 0.90
+balle_rebondissante_fft(1, 1.00)   % 1 balle, rebond parfait
 ```
 
 ### Via le menu interactif

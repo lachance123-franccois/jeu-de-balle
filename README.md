@@ -81,11 +81,11 @@ Le programme produit une figure 3×4 avec :
 
 > Ces pistes n'ont pas encore été implémentées — elles constituent des directions d'extension possibles.
 
-- **Biomécanique** — analyse du rebond d'une prothèse ou de la foulée d'un coureur via capteurs inertiels
-- **Génie civil** — détection de fréquences de vibration anormales dans des structures (ponts, bâtiments)
-- **Acoustique** — modélisation de la propagation d'ondes par analogie avec les collisions
-- **Maintenance prédictive** — détection d'anomalies dans des signaux périodiques amortis
-- **Simulation de matériaux** — comportement dynamique sous impact répété
+- **Biomécanique** : analyse du rebond d'une prothèse ou de la foulée d'un coureur via capteurs inertiels
+- **Génie civil** : détection de fréquences de vibration anormales dans des structures (ponts, bâtiments)
+- **Acoustique** : modélisation de la propagation d'ondes par analogie avec les collisions
+- **Maintenance prédictive** : détection d'anomalies dans des signaux périodiques amortis
+- **Simulation de matériaux** : comportement dynamique sous impact répété
 
 ---
 ## 🛠️ Prérequis

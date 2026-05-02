@@ -54,12 +54,12 @@ demo_balles
 
 Le programme produit une figure 3×4 avec :
 
-1. **Signal temporel** `y(t)` — position verticale de chaque balle
-2. **Centrage + fenêtrage Hann** — prétraitement avant FFT
-3. **Spectre d'amplitude** `|X(f)|` — avec marquage des fréquences fondamentales
-4. **DSP en dB** — densité spectrale de puissance
-5. **Spectrogramme STFT** — évolution fréquentielle au cours du temps
-6. **Comparaison de fenêtrages** — fuite spectrale Rect. vs Hann vs Hamming
+1. **Signal temporel** `y(t)` : position verticale de chaque balle
+2. **Centrage + fenêtrage Hann** : prétraitement avant FFT
+3. **Spectre d'amplitude** `|X(f)|` : avec marquage des fréquences fondamentales
+4. **DSP en dB** : densité spectrale de puissance
+5. **Spectrogramme STFT** : évolution fréquentielle au cours du temps
+6. **Comparaison de fenêtrages** : fuite spectrale Rect. vs Hann vs Hamming
 7. **Spectre de phase** `∠X(f)`
 
 ---

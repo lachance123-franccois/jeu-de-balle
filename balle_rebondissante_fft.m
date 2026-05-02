@@ -15,14 +15,14 @@ if nargin < 2; restitution = 0.85; end
 %% ================================================================
 %  PARAMETRES PHYSIQUES
 %% ================================================================
-g         = 9.81;
-dt        = 0.016;   % ~60 FPS pour l'animation
-Fe        = 1/dt;    % Frequence d'echantillonnage
-T_sim     = 12;      % Duree simulation (s)
-N         = round(T_sim / dt);
-drag      = 0.999;
-W         = 20;
-H_box     = 15;
+g= 9.81;
+dt= 0.016;   % ~60 FPS pour l'animation
+Fe= 1/dt;    % Frequence d'echantillonnage
+T_sim = 12;      % Duree simulation (s)
+N= round(T_sim / dt);
+drag= 0.999;
+W= 20;
+H_box= 15;
 trail_len = 25;
 
 
@@ -303,12 +303,10 @@ t_vec = (0:N_fft-1)*dt;
 f_vec = (0:floor(N_fft/2)-1)*(Fe/N_fft);
 N_half = floor(N_fft/2);
 
-fprintf('+-----------------------------------------------+\n');
-fprintf('|  Parametres FFT                               |\n');
-fprintf('+-----------------------------------------------+\n');
-fprintf('|  N  = %-6d  |  Fe = %.1f Hz              |\n', N_fft, Fe);
-fprintf('|  Df = %.5f Hz  |  Nyquist = %.1f Hz      |\n', Fe/N_fft, Fe/2);
-fprintf('+-----------------------------------------------+\n\n');
+fprintf('  Parametres FFT                               \n');
+fprintf('  N  = %-6d  |  Fe = %.1f Hz              \n', N_fft, Fe);
+fprintf('  Df = %.5f Hz  |  Nyquist = %.1f Hz      \n', Fe/N_fft, Fe/2);
+
 
 fft_amplitude  = zeros(n_balles, N_half);
 fft_phase      = zeros(n_balles, N_half);
@@ -480,16 +478,16 @@ sgtitle('Analyse Spectrale FFT - Signaux enregistres pendant la simulation', ...
 %% ================================================================
 %  RESUME CONSOLE
 %% ================================================================
-fprintf('\n============================================\n');
+fprintf('\n===================================\n');
 fprintf('  RESULTATS ANALYSE SPECTRALE\n');
-fprintf('============================================\n');
+fprintf('=====================================\n');
 fprintf('  Fe = %.1f Hz  |  N = %d  |  Df = %.4f Hz\n', Fe, N_fft, Fe/N_fft);
 fprintf('  Nyquist = %.1f Hz\n\n', Fe/2);
 for i=1:n_balles
     fprintf('  Balle %d : f1 = %.4f Hz  |  T = %.3f s  |  E = %.2f J\n', ...
         i, f_fondamentale(i), 1/f_fondamentale(i), sum(y_sig(i,:).^2)*dt);
 end
-fprintf('============================================\n');
-fprintf('OK - Analyse FFT terminee.\n\n');
+fprintf('===================================\n');
+fprintf('OK -Analyse FFT terminee.\n\n');
 
 end

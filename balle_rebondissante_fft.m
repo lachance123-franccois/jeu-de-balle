@@ -1,8 +1,5 @@
 %% BALLE_REBONDISSANTE_FFT.M — Simulation physique + Analyse spectrale FFT
 %
-%   Combine la simulation interactive (balle_rebondissante.m)
-%   et l'analyse spectrale complete (balles_fft.m)
-%
 %   ETAPE 1 : Animation en temps reel des balles rebondissantes
 %   ETAPE 2 : Analyse FFT sur les signaux enregistres pendant la simulation
 %

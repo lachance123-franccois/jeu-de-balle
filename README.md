@@ -1,4 +1,4 @@
-# 🎱 Balles Rebondissantes + Analyse FFT
+#  Balles Rebondissantes + Analyse FFT
 
 ## 📌 Description
 
